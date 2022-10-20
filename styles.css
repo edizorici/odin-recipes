@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@font-face {
+  font-family: "Local-Montserrat-Reg";
+  src: url("./fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+body {
+  background-color: #ffefd7;
+  font-family: Arial, sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+a {
+  color: #0564d8;
+}
+
+li,
+p {
+  font-size: 16px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.recipe-list li {
+  font-size: 20px;
+  font-family: "Local-Montserrat-Reg";
+}
+
+li.side-dish a {
+  color: #3256d7;
+}
+li.main-dish a {
+  color: #9a4c14;
+}
+li.salad a {
+  color: #0d874e;
+}
+
+.return-link a {
+  color: #ba1c1c;
+}
+
+img.dish-pic {
+  width: 300px;
+  height: auto;
+}
